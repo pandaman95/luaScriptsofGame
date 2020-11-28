@@ -1,0 +1,11 @@
+--[[ret, input_1, input_2, ... = showUI("");]]
+ret, input_1, input_2, input_3 = showUI("{\"style\":"
+.."\"default\",\"views\":[{\"type\":\"Label\",\"text\":"
+.."\"settings\",\"size\":25,\"align\":\"center\",\"color\":"
+.."\"0,0,255\"},{\"type\":\"RadioGroup\",\"list\":"
+.."\"option1,option2,option3,option4,option5,option6,option7\","
+.."\"select\":\"1\"},{\"type\":\"Edit\",\"prompt\":\"Test\","
+.."\"text\":\"Custom Text\",\"size\":15,\"align\":\"left\","
+.."\"color\":\"255,0,0\"},{\"type\":\"CheckBoxGroup\",\"list\":"
+.."\"option1,option2,option3,option4,option5,option6,option7\","
+.."\"select\":\"3@5\"}]}");
